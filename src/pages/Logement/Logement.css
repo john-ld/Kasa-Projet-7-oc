@@ -1,0 +1,177 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logement-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logement-carousel {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.logement-carousel img {
+    border-radius: 10px;
+    max-height: 410px;
+    object-fit: cover;
+    object-position: center;
+    width: 1240px;
+}
+
+.arrow-container {
+    width: 50px !important;
+}
+
+.arrow {
+    position: absolute;
+    top: 45%;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.arrow_left {
+    left: 10px;
+}
+
+.arrow_right {
+    right: 10px;
+}
+
+.host-picture {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+}
+
+.host-name {
+    color: #ff6060;
+    margin-right: 10px;
+    text-align: end;
+    width: 80px;
+}
+
+.host-info {
+    display: flex;
+    align-items: center;
+}
+
+.collapse-description {
+    width: 582px;
+}
+
+.collapse-equipments {
+    width: 582px;
+}
+
+.second-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dots {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.tags .tag {
+    border: none;
+    background-color: #ff6060;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 30px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-right: 10px;
+}
+
+
+
+.container-title .title {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.housing-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.rating {
+    color: #ff6060;
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+    font-size: 30px;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .first-container {
+        flex-direction: column;
+    }
+
+    .housing-info {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .second-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .collapse-description {
+        width: 100%;
+    }
+
+    .collapse-equipments {
+        width: 100%;
+    }
+
+    .logement-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-title .title {
+        font-size: 18px;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

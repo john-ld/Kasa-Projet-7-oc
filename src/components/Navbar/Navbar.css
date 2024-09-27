@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 95%;
+}
+
+.navbar-logo {
+    margin-right: auto;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+@media (max-width:768px) {
+
+
+    .navbar-logo img {
+        width: 145px;
+    }
+}
