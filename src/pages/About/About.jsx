@@ -42,5 +42,5 @@ Collapse.propTypes = {
   content: PropTypes.string.isRequired  // Le contenu est une chaîne de caractères (obligatoire)
 };
 
-// Exportation du composant APropos pour être utilisé dans d'autres parties
+// Exportation du composant APropos 
 export default APropos;

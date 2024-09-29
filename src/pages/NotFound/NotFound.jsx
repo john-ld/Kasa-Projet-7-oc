@@ -26,5 +26,5 @@ const NotFound = () => {
   );
 };
 
-// Exportation du composant NotFound pour pouvoir l'utiliser dans d'autres fichiers
+// Exportation du composant NotFound 
 export default NotFound;

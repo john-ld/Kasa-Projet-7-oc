@@ -16,7 +16,7 @@ const Rating = ({ rating }) => {
         return (
           <i
             key={index} // Clé unique pour chaque étoile, basée sur l'index
-            className={`fa-xs fa-star ${index < rating ? "fa-solid" : "fa-regular" // Applique une classe solide ou régulière en fonction de la note
+            className={`fa-xs fa-star ${index < rating ? "fa-solid" : "fa-regular" // Appliquation d'une classe solide ou régulière en fonction de la note
               }`}
             aria-hidden="true" // Indique que cette icône n'est pas nécessaire pour les lecteurs d'écran
           ></i>
@@ -31,5 +31,5 @@ Rating.propTypes = {
   rating: PropTypes.number.isRequired, // La prop rating doit être un nombre et est obligatoire
 }
 
-// Exportation du composant Rating pour l'utiliser dans d'autres fichiers
+// Exportation du composant Rating 
 export default Rating;

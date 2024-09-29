@@ -2,7 +2,7 @@
 import "../Footer/Footer.css"
 import logo from "../../assets/logoblack.png"
 
-// Définition du composant fonctionnel Footer
+// Définition du composant fonctionnel (Footer)
 const Footer = () => {
   return (
     <footer className="footer">

@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Im
 
 // Importation des composants de l'application
 import Navbar from "./components/Navbar/Navbar"; // Barre de navigation
-import Footer from "./components/Footer/Footer"; // Pied de page
+import Footer from "./components/Footer/Footer"; // Pied de page (Footer)
 import Home from "./pages/Home/Home"; // Page d'accueil
 import About from "./pages/About/About"; // Page À Propos
 import Form from "./pages/Logement/Logement"; // Page pour afficher les détails d'un logement
@@ -43,5 +43,5 @@ function App() {
   );
 }
 
-// Exportation du composant App pour l'utiliser dans d'autres fichiers
+// Exportation du composant App 
 export default App;

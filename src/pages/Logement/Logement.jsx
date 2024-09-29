@@ -112,5 +112,5 @@ const Logement = () => {
   );
 };
 
-// Exportation du composant Logement pour l'utiliser dans d'autres fichiers
+// Exportation du composant Logement 
 export default Logement;

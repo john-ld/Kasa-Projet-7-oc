@@ -42,10 +42,10 @@ const Carousel = () => {
 
   // Gestion des erreurs si le logement actif ou ses images sont indisponibles
   if (!activeListing || !activeListing.pictures || activeListing.pictures.length === 0) {
-    return <p>Aucune image disponible pour ce logement.</p>; // Retourne un message d'erreur si aucune image n'est disponible
+    return <p>Aucune image disponible pour ce logement.</p>; // Retourne un message d'erreur si aucune image n'est dispo
   }
 
-  // Retourne le JSX pour afficher le carrousel d'images
+  // Retourne le JSX pour afficher les images du Carrousel
   return (
     <div className="logement-container">
       {/* Si le logement a des images, affiche le carrousel */}
