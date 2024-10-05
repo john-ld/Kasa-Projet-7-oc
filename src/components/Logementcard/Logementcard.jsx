@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 // Importation des styles spécifiques au composant
-import "./LogementCard.css";
+import "./Logementcard.css";
 
 // Importation de PropTypes pour valider les types des props
 import PropTypes from "prop-types";

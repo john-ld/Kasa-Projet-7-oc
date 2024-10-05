@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 footer {
     background-color: black;
     width: 100%;
@@ -13,7 +14,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .copyright {
@@ -21,5 +22,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-   
+    .footer {
+        margin-top: 0px;
+    }
 }
