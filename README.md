@@ -8,3 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Kasa-Projet-7-oc
 Création d'une application web de location immobilière avec React
+Exectuer le terminal sur Bash 
+commande : npm run dev 
