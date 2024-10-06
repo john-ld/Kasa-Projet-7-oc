@@ -3,13 +3,13 @@ body {
     padding: 0;
 }
 
-footer {
+Footer {
     background-color: black;
     width: 100%;
     height: 243px;
 }
 
-.footer {
+.Footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .footer {
+    .Footer {
         margin-top: 0px;
     }
 }
